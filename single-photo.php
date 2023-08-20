@@ -48,6 +48,4 @@
 				</div>
 				<a href="<?php echo home_url()?>"><button id="lienacc">Toutes les photos </button></a>
 	</div>
-
-    
 <?php get_footer(); ?>
