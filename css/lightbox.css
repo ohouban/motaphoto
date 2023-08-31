@@ -34,7 +34,7 @@
 }
 
 .lightbox-reference {
-    font-family: var(--font-poppins);
+    font-family: 'Poppins';
 }
 
 .lightbox-category,
@@ -88,7 +88,7 @@
 
     .arrow.prev,
     .arrow.next {
-        width: 30px;
+        width: 100px;
     }
 
 }

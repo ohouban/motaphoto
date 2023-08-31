@@ -14,6 +14,8 @@
         </div>
         <button class="menu-toggle" aria-controls="main-menu" aria-expanded="false" >
             <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
         </button>
         <nav class="main-menu">
             <?php
@@ -23,6 +25,9 @@
                 'menu_class' => 'menu',
                 ]);
             ?>
+            <ul>
+            <li><a href="#" id="myBtn" class="contact-item modal-js" role="button" data-toggle="modal">CONTACT</a></li>
+            <ul>
         </nav>
        
     </header>

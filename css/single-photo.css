@@ -1,0 +1,114 @@
+
+
+.arrow-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    width: 50vw;
+}
+
+@media (max-width: 768px) {
+
+    .arrow-container,
+    .all-pics button {
+        display: none;
+    }
+
+    .galerie-container,
+    .indexphoto,
+    .sous_partie
+    {
+        flex-direction: column; /* Affichage en colonnes empilées */
+        align-items: center; /* Alignement central des éléments */
+
+    }
+    .post{
+        flex-direction: column-reverse;
+        padding: unset;
+    }
+    .post-content,
+    .sous_partie p,
+    .post-details
+    {
+        width: unset;
+    }
+    .post-content{
+        margin-right: 42px;
+        margin-left: 42px;
+
+    }
+
+    .sous_partie{
+        width: unset;
+        margin-left: unset;
+    }
+
+    .sous_partie p{
+        margin-right: 113px;
+    }
+    .post-info{
+        max-width: unset;
+    }
+    .post-details{
+        max-width: unset;
+        margin-right: 42px;
+        margin-left: 42px;
+    }
+    .contact-btn{
+        width: 70%;
+        margin-right: 47px;
+        height: 40PX;
+
+    }
+    .post h1{
+        max-width: max-content;
+        font-size: 46px;
+        padding-bottom: unset;
+        margin-left: 39px;
+    }
+    .photoapp p{
+        text-align: center;
+        margin-right: 23px;
+    }
+
+
+    .all-pics button {
+        margin-block: none;
+    }
+}
+
+
+.arrow-container {
+    position: relative
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.arrows-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thumbnail-box {
+    width: 81px;
+    height: 71px;
+    position: relative;
+}
+
+.previous-thumbnail,
+.next-thumbnail {
+    position: absolute;
+    inset: 0;
+    margin-top: 0.5em;
+}
+
+.previous-thumbnail img,
+.next-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
