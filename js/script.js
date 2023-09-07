@@ -7,15 +7,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
   menuToggle.addEventListener('click', function () {
 
-    if (mainMenu.classList.contains('open')) {
-      mainMenu.classList.remove('open');
-      mainMenu.classList.add('fermer');
+    if (menuToggle.classList.contains('open')) {
+      menuToggle.classList.remove('open');
+      menuToggle.classList.add('fermer');
     } else {
-      mainMenu.classList.remove('fermer');
-      mainMenu.classList.add('open');
+      menuToggle.classList.remove('fermer');
+      menuToggle.classList.add('open');
     }
     //mainMenu.classList.toggle('open'); // Ajoute ou supprime la classe 'open'
-    menuToggle.classList.toggle('open');
+    mainMenu.classList.toggle('open');
 
   });
 });
@@ -110,3 +110,5 @@ jQuery(document).ready(function ($) {
     });
   });
 });
+
+

@@ -22,6 +22,10 @@
         align-items: center; /* Alignement central des éléments */
 
     }
+    .indexphoto{
+        padding: 10px;
+
+    }
     .post{
         flex-direction: column-reverse;
         padding: unset;

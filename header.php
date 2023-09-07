@@ -12,7 +12,8 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="Logo du site">
             </a>
         </div>
-        <button class="menu-toggle" aria-controls="main-menu" aria-expanded="false" >
+                
+        <button id="menu-toggle" class="menu-toggle" aria-controls="main-menu" aria-expanded="false" >
             <span class="menu-icon"></span>
             <span class="menu-icon"></span>
             <span class="menu-icon"></span>
