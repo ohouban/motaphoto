@@ -7,7 +7,6 @@ function theme_enqueue_styles()
     wp_enqueue_script( 'motaphoto-js',get_stylesheet_directory_uri(). '/js/script.js' );
     wp_enqueue_script( 'motaphoto-lightbox-js',get_stylesheet_directory_uri(). '/js/lightbox.js' );
     wp_enqueue_script( 'motaphoto-contact-js',get_stylesheet_directory_uri(). '/js/contact.js' );
-
     wp_enqueue_style('motaphoto-css', get_stylesheet_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('motaphoto-lightbox-css', get_stylesheet_directory_uri() . '/css/lightbox.css', array(), '1.0', 'all');
     wp_enqueue_style('motaphoto-contact-css', get_stylesheet_directory_uri() . '/css/contact.css', array(), '1.0', 'all');
