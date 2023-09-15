@@ -1,14 +1,7 @@
 <?php get_header(); ?>
 
-<div id="contact-popup" class="popup">
-    <div class="popup-wrapper">
-        <div class="popup-content">
-            <img class="contact-text" src="<?php echo get_template_directory_uri() . '/assets/contact-header.png' ?>"
-                alt="Contact">
-            <?php echo do_shortcode('[contact-form-7 id="27f1d5a" title="Contact"]'); ?>
-        </div>
-    </div>
-</div>
+
+<?php get_template_part('contact');?>
 
 <div class="container">
     <?php if (have_posts()): ?>
@@ -51,23 +44,7 @@
     <div class="sous_partie">
         <p>Cette photo vous intéresse ? </p>
         <button class="contact-btn">Contact</button>
-        <div class="carr">
-            <?php the_post_thumbnail(); ?>
-            <p class="carrousel">
-                <?php $prevPost = get_previous_post();
-                $prevLink = get_permalink($prevPost); ?>
-                <a href="<?php echo $prevLink; ?>">
-                    <img class="arrow_left" src="<?php echo get_template_directory_uri(); ?>/assets/arrow_left.png"
-                        alt="fleche_gauche">
-                </a>
-                <?php $prevNext = get_next_post();
-                $prevLinkNext = get_permalink($prevNext); ?>
-                <a href="<?php echo $prevLinkNext; ?>">
-                    <img class="arrow_right" src="<?php echo get_template_directory_uri(); ?>/assets/arrow_right.png"
-                        alt="fleche_droite">
-                </a>
-            </p>
-        </div>
+
         <div class="arrow-container">
             <div class="arrows">
                 <div class="arrows-wrapper">

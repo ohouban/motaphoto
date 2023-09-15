@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
 </head>
+
+<?php get_template_part('contact');?>
+
 <body>
     <header class="site-header">
         <div class="logo">
@@ -27,7 +30,7 @@
                 ]);
             ?>
             <ul>
-            <li><a href="#" id="myBtn" class="contact-item modal-js" role="button" data-toggle="modal">CONTACT</a></li>
+            <li><a href="#" id="myBtn" class="contact-btn contact-item" role="button" data-toggle="modal">CONTACT</a></li>
             <ul>
         </nav>
        
