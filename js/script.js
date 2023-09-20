@@ -29,8 +29,14 @@ document.addEventListener('DOMContentLoaded', function () {
 let currentPage = 1;
 
 jQuery(document).ready(function ($) {
+  console.log($('#cat-select').val());
+  console.log($('#form-select').val());
+  console.log($('#tri-select').val());
   $('#load-more').on('click', function () {
     currentPage++;
+    console.log($('#cat-select').val());
+    console.log($('#form-select').val());
+    console.log($('#tri-select').val());
     $.ajax({
       type: 'POST',
       url: 'wp-admin/admin-ajax.php',

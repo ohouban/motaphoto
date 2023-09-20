@@ -51,8 +51,8 @@ body{
     list-style: none !important;
 }
 
-#myBtn {
-    background-color: white;
+.myBtn {
+    background-color: white !important;
     padding: unset;
 }
 
@@ -467,7 +467,7 @@ footer{
     margin-bottom: 6vh;
     display: flex;
     justify-content: center;
-    padding: 1vw 8vw;
+    padding: 0vw 8vw;
     border-radius: 2px;
 }
 

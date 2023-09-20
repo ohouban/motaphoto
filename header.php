@@ -30,7 +30,7 @@
                 ]);
             ?>
             <ul>
-            <li><a href="#" id="myBtn" class="contact-btn contact-item" role="button" data-toggle="modal">CONTACT</a></li>
+            <li><a href="#" id="myBtn" class="contact-item" role="button" data-toggle="modal">CONTACT</a></li>
             <ul>
         </nav>
        
